@@ -62,14 +62,14 @@
                             <form>
                               <div class="mb-3">
                                 <label for="InputName1" class="form-label">Имя</label>
-                                <input type="text" class="form-control" id="InputName1" placeholder="Имя">
+                                <input name="name" type="text" class="form-control" id="InputName1" placeholder="Имя">
                               </div>
                                 <label for="InputEmail1" class="form-label">Почта</label>
                                 <div class="input-group has-validation">
                                   <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="inputGroupPrepend" placeholder="email" required>
+                                  <input name="email" type="email" class="form-control" id="InputEmail1" aria-describedby="inputGroupPrepend" placeholder="email" required>
                                   <div class="invalid-feedback">
-                                    Пожалуйтса, введите email.
+                                    Пожалуйста, введите email.
                                   </div>
                                 </div>
 <!--                              <div class="mb-3">-->
@@ -78,7 +78,7 @@
 <!--                              </div>-->
                               <div class="mb-3">
                                 <label for="InputMessage1" class="form-label">Сообщение</label>
-                                <textarea class="form-control" id="InputMessage1" rows="3" placeholder="Сообщение"></textarea>
+                                <textarea name="message" class="form-control" id="InputMessage1" rows="3" placeholder="Сообщение"></textarea>
                               </div>
                               <button type="submit" class="btn btn-primary">Отправить</button>
                             </form>
